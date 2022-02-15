@@ -3,6 +3,8 @@ import React, {useState, useRef, useEffect} from 'react'
 
 const TodoForm = ({addTask}) => {
 
+  console.log('form')
+
  //input value
   const [newTodo, setNewTodo] = useState('');
 
